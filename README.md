@@ -1,10 +1,10 @@
 # `spaxelsleuth`
 
-spaxelsleuth is a `python` package for analysing data from large IFU surveys, such as SAMI, on a spaxel-by-spaxel basis. 
+spaxelsleuth is a `python` package for analysing data from large IFU surveys, such as Hector, on a spaxel-by-spaxel basis. 
 
 spaxelsleuth takes as input data cubes and other data products, e.g. emission line fits and stellar kinematics measurements, and outputs a `pandas` DataFrame where each row represents a spatial pixel (*spaxel*) in a galaxy, and the columns represent various measurements. In addition to storing data products from large surveys in an easy-to-use format, spaxelsleuth computes extra quantities, such as extinctions, emission line ratios, and metallicities, so you don't have to! spaxelsleuth also comes with a set of useful plotting and data visualisation tools to help you analyse your data. 
 
-spaxelsleuth was originally developed to work with data from the [Sydney-AAO Multi-object Integral field spectrograph (SAMI) survey](http://sami-survey.org/) but contains extensions to work with fitting output from LZIFU and S7, and can be adapted to ingest data from other surveys.
+This is a fork of the [original spaxelsleuth package](https://github.com/hzovaro/spaxelsleuth) that was initially developed to work with data from the [Sydney-AAO Multi-object Integral field spectrograph (SAMI) survey](http://sami-survey.org/).
 
 # Installation
 
